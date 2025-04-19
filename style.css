@@ -5,9 +5,6 @@
     --gothic-title-font: 'Special Gothic Expanded One', sans-serif;
 }
 
-/* -----------------------------
-V A R I A B L E S - F I N I S H 
------------------------------ */
 
 .program-container {
     margin: 0 auto;
@@ -76,7 +73,3 @@ V A R I A B L E S - F I N I S H
     font-weight: 600;
     display: block;
 } 
-
-/* -----------------------------
-P R O G R A M  - F I N I S H 
------------------------------ */
