@@ -1,0 +1,82 @@
+:root {
+    --titles-color: royalblue;
+    --text-color: darkgrey;
+    --cursive-title-font: 'Cedarville Cursive', cursive;
+    --gothic-title-font: 'Special Gothic Expanded One', sans-serif;
+}
+
+/* -----------------------------
+V A R I A B L E S - F I N I S H 
+----------------------------- */
+
+.program-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program-title {
+    font-size: 37.5px;
+    font-family: var(--gothic-title-font);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    color: var(--titles-color);
+}
+
+.program-subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--cursive-title-font);
+    color: var(--text-color);
+    margin-bottom: 75px;
+}
+
+.program-list {
+    width: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.program-item {
+    width: 630px;
+    height: 300px;
+    display: flex;
+    justify-content: right;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 12px 6px 12px 1.5px rgba(0, 0, 0, 0.5);
+    background: url(./images/person-doing-yoga.jpg) left / 300px 300px no-repeat;
+    color: var(--text-color);
+}
+
+.program-item-wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+
+.program-item-title {
+    font-size: 27px;
+    font-weight: 700;
+    width: 240px;
+}
+
+.program-item-description {
+    font-size: 18px;
+    font-weight: 400;
+    width: 270px;
+}
+
+.program-item-description-span {
+    padding-top: 23px;
+    font-weight: 600;
+    display: block;
+} 
+
+/* -----------------------------
+P R O G R A M  - F I N I S H 
+----------------------------- */
